@@ -1,0 +1,34 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+    .dashboard-container h1 {
+        margin-bottom: 20px;
+        font-size: 2.5rem;
+    }
+
+    .dashboard-container p {
+        font-size: 1.2rem;
+        margin: 10px 0;
+    }
+
+    .dashboard-container button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .dashboard-container button:hover {
+            background-color: #0056b3;
+        }
